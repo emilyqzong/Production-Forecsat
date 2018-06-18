@@ -14,11 +14,11 @@ import os
 # In[3]:
 
 
-os.chdir('C:\\Users\\emily.zong\\OneDrive - RS Energy Group\\Desktop\\Production Forecast (Epic)\\Nk Code June 15')
+#os.chdir('C:\\Users\\emily.zong\\OneDrive - RS Energy Group\\Desktop\\Production Forecast (Epic)\\Nk Code June 15')
 
-completions = pd.read_csv('Target_Completion.csv')
-TCoil = pd.read_csv('Target_Oil_AutoCurve.csv')
-TCgas = pd.read_csv('Target_Gas_AutoCurve.csv')
+completions = pd.read_csv('https://storage.googleapis.com/productionforecast/Target_Completion.csv')
+TCoil = pd.read_csv('https://storage.googleapis.com/productionforecast/Target_Oil_AutoCurve.csv')
+TCgas = pd.read_csv('https://storage.googleapis.com/productionforecast/Target_Gas_AutoCurve.csv')
 
 completions.head(3)
 
